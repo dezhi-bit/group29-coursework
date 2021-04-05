@@ -86,7 +86,6 @@ def del_holidays(name):
 **Option2**
 
 2.1 
-
 The https is using ssl_context='adhoc'
 ```
 if __name__ == "__main__":
