@@ -36,7 +36,8 @@ class User(UserMixin, db.Model):
 
 3. CRUD method
 
-all code is in the db11.py
+All code is in the db11.py
+
 
 3.1 POST
 ```
