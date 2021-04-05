@@ -95,7 +95,7 @@ if __name__ == "__main__":
 2.2
 Implementing user accounts and access management is using flask_login
 
-all code is in the suth.py
+All code is in the auth.py
 
 
 **Requirement**
