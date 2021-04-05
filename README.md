@@ -14,7 +14,7 @@ calendarific_data = 'https://calendarific.com/api/v2/holidays?&api_key={api_key}
 ```
 This api include the api_key, the deatil is can choose different country and year. 
 
-2. cloud database
+2. Cloud database
 This project using the mysql that is running in the docker to save the data of calendar's holidays. 
 mysql 5.7 is Stable version. 
 ```
@@ -23,7 +23,7 @@ docker run -p 3306:3306 --name mysql  -e MYSQL_ROOT_PASSWORD=root  -d mysql:5.7
 docker start mysql
 ```
 
-2.1 auth database 
+2.1 Auth database 
 This project use sqlite to save the account name and password
 ```
 class User(UserMixin, db.Model):
