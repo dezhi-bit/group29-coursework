@@ -4,7 +4,7 @@ This project is use python and flask to implement RESTful API for Calendar.
 The calendar api is from:
 [https://calendarific.com/api-documentation]
 
-** Basic functions **
+**Basic functions**
 1. API
 ```
 calendarific_data = 'https://calendarific.com/api/v2/holidays?&api_key={api_key}&country={country}&year={year}'
@@ -78,7 +78,7 @@ def del_holidays(name):
     return jsonify(response)
 ```
 
-** Option2 **
+**Option2**
 2.1 
 The https is using ssl_context='adhoc'
 ```
@@ -89,7 +89,7 @@ if __name__ == "__main__":
 Implementing user accounts and access management is using flask_login
 all code is in the suth.py
 
-** Requirement **
+**Requirement**
 All libraries pack is in the requirement.txt
 
 
