@@ -84,17 +84,22 @@ def del_holidays(name):
 ```
 
 **Option2**
+
 2.1 
+
 The https is using ssl_context='adhoc'
 ```
 if __name__ == "__main__":
     app.run(host='localhost', ssl_context='adhoc')
 ```
+
 2.2
 Implementing user accounts and access management is using flask_login
 all code is in the suth.py
 
+
 **Requirement**
+
 All libraries pack is in the requirement.txt
 
 
