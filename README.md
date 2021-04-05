@@ -6,7 +6,7 @@ This project is use python and flask to implement RESTful API for Calendar.
 The calendar api is from:
 
 https://calendarific.com/api-documentation
-
+****
 **Basic functions**
 1. API
 ```
@@ -82,7 +82,7 @@ def del_holidays(name):
     response = Mysql.delete1(a)
     return jsonify(response)
 ```
-
+****
 **Option2**
 
 2.1 
@@ -96,8 +96,7 @@ if __name__ == "__main__":
 Implementing user accounts and access management is using flask_login
 
 All code is in the auth.py
-
-
+****
 **Requirement**
 
 All libraries package is in the requirement.txt
