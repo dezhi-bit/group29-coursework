@@ -93,8 +93,10 @@ if __name__ == "__main__":
 ```
 
 2.2
-2.2.1Implementing user accounts and access management is using flask_login
-2.2.2Implementing hash-based authentication
+
+4.2.1Implementing user accounts and access management is using flask_login
+
+6.2.2Implementing hash-based authentication
 ```
 @auth.route('/login', methods=['POST'])
 def login_post():
