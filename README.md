@@ -23,6 +23,25 @@ docker run -p 3306:3306 --name mysql  -e MYSQL_ROOT_PASSWORD=root  -d mysql:5.7
 docker start mysql
 ```
 
+The database table is runoob_db
+```
+import mysql.connector
+ 
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  passwd="root",
+  database="runoob_db"
+)
+mycursor = mydb.cursor()
+mycursor.execute("CREATE DATABASE runoob_db")
+mycursor.execute("CREATE TABLE holidays (id INT AUTO_INCREMENT PRIMARY KEY, country VARCHAR(255), name VARCHAR(255), type VARCHAR(255), iso_date VARCHAR(255), description VARCHAR(255))")
+mycursor.execute("SHOW DATABASES")
+for x in mycursor:
+  print(x)
+
+```
+
 2.1 Auth database 
 This project use sqlite to save the account name and password
 ```
