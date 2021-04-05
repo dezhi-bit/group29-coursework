@@ -99,7 +99,7 @@ all code is in the suth.py
 
 **Requirement**
 
-All libraries pack is in the requirement.txt
+All libraries package is in the requirement.txt
 
 
 
